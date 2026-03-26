@@ -1,0 +1,76 @@
+ [
+    {
+      "id": 1,
+      "planName": "Basic Plan",
+      "Popular":true,
+      "price": 15,
+      "currency": "USD",
+      "duration": "month",
+      "description": "Beginners der jonno simple gym access",
+      "features": [
+        "Gym access (6 AM - 10 PM)",
+        "Basic equipment use",
+        "Locker facility",
+        "1 free fitness assessment"
+      ],
+      "recommended": false,
+      "badge": "",
+      "buttonText": "Join Now"
+    },
+    {
+      "id": 2,
+      "planName": "Standard Plan",
+      "price": 30,
+      "currency": "USD",
+      "duration": "month",
+      "description": "Regular workout users der jonno best",
+      "features": [
+        "24/7 Gym access",
+        "All equipment access",
+        "Locker + shower",
+        "Weekly workout plan",
+        "Group classes (Yoga, Cardio)"
+      ],
+      "recommended": true,
+      "badge": "Most Popular",
+      "buttonText": "Get Started"
+    },
+    {
+      "id": 3,
+      "planName": "Pro Plan",
+      "price": 50,
+      "currency": "USD",
+      "duration": "month",
+      "description": "Advanced fitness goal der jonno",
+      "features": [
+        "24/7 access",
+        "All equipment + premium zone",
+        "Unlimited group classes",
+        "3 personal trainer sessions",
+        "Diet guidelines"
+      ],
+      "recommended": false,
+      "badge": "",
+      "buttonText": "Upgrade Now"
+    },
+    {
+      "id": 4,
+      "planName": "Elite Plan",
+      "Popular":true,
+      "price": 80,
+      "currency": "USD",
+      "duration": "month",
+      "description": "Complete fitness package with VIP সুবিধা",
+      "features": [
+        "24/7 VIP access",
+        "Dedicated personal trainer",
+        "Custom diet plan",
+        "Monthly body analysis",
+        "Steam & sauna",
+        "Priority support"
+      ],
+      "recommended": false,
+      "badge": "Best Value",
+      "buttonText": "Go Elite"
+    }
+  ]
