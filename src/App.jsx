@@ -9,9 +9,9 @@ import MarksChart from './Components/MarksChart/MarksChart'
 
 
 
-const PricingPromise=fetch('PricingData.json')
+const PricingPromise=fetch('./PricingData.json')
   .then(res=>res.json());
-  const MarksPromise=axios.get('MarksData.json')
+  const MarksPromise=axios.get('./MarksData.json')
 
 function App() {
   return (
