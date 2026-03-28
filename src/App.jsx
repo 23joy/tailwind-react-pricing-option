@@ -9,9 +9,9 @@ import MarksChart from './Components/MarksChart/MarksChart'
 
 
 
-const PricingPromise=fetch('./PricingData.json')
+const PricingPromise=fetch('PricingData.json')
   .then(res=>res.json());
-  const MarksPromise=axios.get('./MarksData.json')
+  const MarksPromise=axios.get('MarksData.json')
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <DaisyNav></DaisyNav>
     </header>
     <main>
-      <Suspense>
+      <Suspense fallback={<span className="loading loading-infinity loading-lg"></span>}>
         <PricingOption PricingPromise={PricingPromise}></PricingOption>
       </Suspense>
       <ResultChart></ResultChart>
